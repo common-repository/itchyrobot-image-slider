@@ -1,0 +1,43 @@
+﻿/*Gallery */
+.clear {
+	clear:both;
+}
+ 
+#gallery {
+	position:relative;
+	height:360px;
+}
+	#gallery a {
+		float:left;
+		position:absolute;
+	}
+	
+	#gallery a img {
+		border:none;
+	}
+	
+	#gallery a.show {
+		z-index:500;
+		
+	}
+ 
+	#gallery .caption {
+		z-index:600; 
+		background-color:#000; 
+		color:#ffffff; 
+		height:100px; 
+		width:auto; 
+		position:absolute;
+		left:3px;
+		bottom:-3px;
+	}
+ 
+	#gallery  .content {
+		margin:5px;
+	}
+	
+	#gallery .caption .content h3 {
+		margin:5px;
+		padding:0;
+		color:#1DCCEF;
+	}
